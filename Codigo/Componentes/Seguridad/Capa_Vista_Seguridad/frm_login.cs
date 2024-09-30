@@ -24,6 +24,7 @@ namespace Capa_Vista_Seguridad
             InitializeComponent();
             Txt_clave.UseSystemPasswordChar = true;
 
+
             // Vincula el evento KeyPress
             Txt_clave.KeyPress += new KeyPressEventHandler(Txt_clave_KeyPress);
             Txt_usuario.KeyPress += new KeyPressEventHandler(Txt_usuario_KeyPress);
