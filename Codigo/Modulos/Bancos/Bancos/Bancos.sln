@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.35026.282
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_Vista_Banco", "Capa_Vista_Banco\Capa_Vista_Banco.csproj", "{E9CBE6F0-78DC-4994-996B-2D6001E40F6F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_Modelo_Banco", "Capa_Modelo_Banco\Capa_Modelo_Banco.csproj", "{53538A9F-17F0-463F-B69F-86FCCDC8C2D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_Controlador_Banco", "Capa_Controlador_Banco\Capa_Controlador_Banco.csproj", "{B7F91F5D-9D7A-4D71-816D-4C68BD4D6F23}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E9CBE6F0-78DC-4994-996B-2D6001E40F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9CBE6F0-78DC-4994-996B-2D6001E40F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9CBE6F0-78DC-4994-996B-2D6001E40F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9CBE6F0-78DC-4994-996B-2D6001E40F6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{53538A9F-17F0-463F-B69F-86FCCDC8C2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53538A9F-17F0-463F-B69F-86FCCDC8C2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53538A9F-17F0-463F-B69F-86FCCDC8C2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
