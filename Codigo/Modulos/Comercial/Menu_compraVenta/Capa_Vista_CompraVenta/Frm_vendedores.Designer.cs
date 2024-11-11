@@ -38,14 +38,14 @@ namespace Capa_Vista_CompraVenta
             this.navegador1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(800, 450);
+            this.navegador1.Size = new System.Drawing.Size(846, 450);
             this.navegador1.TabIndex = 0;
             // 
             // Frm_vendedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(846, 450);
             this.Controls.Add(this.navegador1);
             this.Name = "Frm_vendedores";
             this.Text = "Frm_vendedores";

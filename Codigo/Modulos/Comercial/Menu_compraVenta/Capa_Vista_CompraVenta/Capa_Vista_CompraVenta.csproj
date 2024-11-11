@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83130444-93A6-49DE-B86C-C1C5BE36CD16}</ProjectGuid>
+    <ProjectGuid>{EEB12E36-65F1-45B6-AAA8-9FF44258AE1B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Capa_Vista_CompraVenta</RootNamespace>
@@ -34,8 +34,17 @@
     <Reference Include="Capa_Controlador_CompraVenta">
       <HintPath>..\Capa_Controlador_CompraVenta\bin\Debug\Capa_Controlador_CompraVenta.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Cotizacion">
+      <HintPath>..\..\Cotizacion\Capa_Vista_Cotizacion\bin\Debug\Capa_Vista_Cotizacion.dll</HintPath>
+    </Reference>
+    <Reference Include="Capa_Vista_ListaPrecios">
+      <HintPath>..\..\Listas Precios\Capa_Vista_ListaPrecios\bin\Debug\Capa_Vista_ListaPrecios.dll</HintPath>
+    </Reference>
     <Reference Include="Capa_Vista_Navegador">
       <HintPath>..\..\..\..\Componentes\Navegador\Capa_Vista_Navegador\bin\Debug\Capa_Vista_Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="Interfac_V3">
+      <HintPath>..\..\..\Menus\ModernGUI_V3\bin\Debug\Interfac_V3.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,17 +64,17 @@
     <Compile Include="Frm_clientes.Designer.cs">
       <DependentUpon>Frm_clientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_proveedores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_proveedores.Designer.cs">
-      <DependentUpon>Frm_proveedores.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_MDI_general_CompraVenta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_MDI_general_CompraVenta.Designer.cs">
       <DependentUpon>Frm_MDI_general_CompraVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_proveedores.Designer.cs">
+      <DependentUpon>Frm_proveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_vendedores.cs">
       <SubType>Form</SubType>
@@ -96,11 +105,34 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComprasMDI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logotipo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salirMDI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VentaMDI.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

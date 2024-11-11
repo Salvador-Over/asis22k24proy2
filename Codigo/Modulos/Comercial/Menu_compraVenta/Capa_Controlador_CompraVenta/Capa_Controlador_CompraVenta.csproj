@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C789A61-DD30-46B6-A150-9A6DA5BB1C83}</ProjectGuid>
+    <ProjectGuid>{69A7C1A6-0E5D-4A3D-B22F-0A7471631312}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Capa_Controlador_CompraVenta</RootNamespace>
@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Capa_Modelo_CompraVenta">
+    <Reference Include="Capa_Modelo_CompraVenta, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Capa_Modelo_CompraVenta\bin\Debug\Capa_Modelo_CompraVenta.dll</HintPath>
     </Reference>
     <Reference Include="System" />

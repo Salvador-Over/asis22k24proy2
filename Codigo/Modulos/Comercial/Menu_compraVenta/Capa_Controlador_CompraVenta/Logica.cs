@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Data;
-using Capa_Modelo_CompraVenta;
 using System.Data.Odbc;
+using Capa_Modelo_CompraVenta;
 
 namespace Capa_Controlador_CompraVenta
 {
     public class Logica
     {
+
         Sentencia sn;
 
         public Logica(string idUsuario)

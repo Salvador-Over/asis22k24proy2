@@ -1,4 +1,4 @@
-﻿using Capa_Vista_Seguridad;
+﻿using Capa_Vista_Seguridad;  
 using System;
 using System.Windows.Forms;
 //Comentado por George Mayén 25/02/2023

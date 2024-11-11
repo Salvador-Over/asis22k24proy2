@@ -604,5 +604,17 @@ ALTER TABLE tbl_recetas
 ADD COLUMN `dias` INT(11) NULL,
 ADD COLUMN `horas` DECIMAL(10,2) NULL;
 
-
+-- COMERCIAL 10/11/2024
+CREATE TABLE IF NOT EXISTS Tbl_ComprasRealizadas (
+    PK_noCompra VARCHAR(20) NOT NULL UNIQUE, 
+    Fk_prov_id INT,                             
+    CR_FechaCompra DATETIME,                       
+    CR_TotalCompra DECIMAL(18,2),                 
+    CR_CodigoProducto INT,                         
+    CR_PrecioU DECIMAL(18,2),                    
+    CR_Cantidad INT,                               
+    CR_TotalDetalle DECIMAL(18,2),  
+     PRIMARY KEY (PK_noCompra),
+    FOREIGN KEY (Fk_prov_id) REFERENCES Tbl_proveedores(Pk_prov_id)
+);
 
